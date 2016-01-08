@@ -5,7 +5,7 @@
 <head>
 <title>Maven + Spring MVC</title>
  
-<spring:url value="/resources/core/css/hello.css" var="coreCss" />
+<spring:url value="/resources/core/css/user.css" var="coreCss" />
 <spring:url value="/resources/core/css/bootstrap.min.css" var="bootstrapCss" />
 <link href="${bootstrapCss}" rel="stylesheet" />
 <link href="${coreCss}" rel="stylesheet" />
@@ -65,12 +65,10 @@
  
  
   <hr>
-  <footer>
-	<p>&copy; Mkyong.com 2015</p>
-  </footer>
+
 </div>
  
-<spring:url value="/resources/core/css/hello.js" var="coreJs" />
+<spring:url value="/resources/core/css/user.js" var="coreJs" />
 <spring:url value="/resources/core/css/bootstrap.min.js" var="bootstrapJs" />
  
 <script src="${coreJs}"></script>
